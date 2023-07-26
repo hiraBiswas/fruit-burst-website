@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,6 +37,49 @@
 
     <header>
         <!--navbar section for the website-->
+       <nav class="">
+        <div class="navbar bg-white lg:bg-red-400 rounded-full my-12 ">
+            <div class="navbar-start hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-black lg:text-white">
+                  <li><a href="">Home</a></li>
+                  <li><a href="">About Us</a></li>
+                  <li><a href="">Shop</a></li>
+                  <li><a href="">All fruits</a></li>
+                      </ul>
+                    
+              </div>
+            <div class="navbar-center">
+               
+              <div class="flex">
+                <img src="./images/logo.png" alt="">
+                <a class="btn btn-ghost normal-case text-black lg:text-white text-4xl font-bold">Fruit Burst</a>
+              </div>
+              <div class="flex justify-end">
+                <div class="dropdown">
+                  <label tabindex="0" class="btn btn-ghost   lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="black"><path stroke-linecap="none" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                  </label>
+                  <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ">
+                      <li><a href="">Home</a></li>
+                      <li><a href="">About Us</a></li>
+                      <li><a href="">Shop</a></li>
+                      <li><a href="">All fruits</a></li>
+                  </ul>
+                </div>
+              </div>
+             
+            </div>
+           
+           
+            <div class="navbar-end">
+                <div class="hidden lg:block">
+                <input type="text" placeholder="Search here" class="input rounded-full  border-transparent input-info w-[400px] max-w-xs s relative" />
+                <i class="fa-solid fa-magnifying-glass absolute top-20 right-6" style="color: #121212;"></i>
+            
+            </div>
+          </div>
+        </div>
+       </nav>
     </header>
 
     
