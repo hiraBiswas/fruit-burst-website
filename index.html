@@ -19,7 +19,9 @@
       theme: {
         extend: {
           colors: {
-            clifford: '#da373d',
+           
+
+           
           }
         }
       }
@@ -33,11 +35,11 @@
   </style>
 </head>
 
-<body>
+<body class="font-lato">
 
-    <header>
+    <header class="max-w-7xl mx-auto">
         <!--navbar section for the website-->
-       <nav class="">
+       <nav class=" max-w-7xl mx-auto h-32">
         <div class="navbar bg-white lg:bg-red-400 rounded-full my-12 ">
             <div class="navbar-start hidden lg:flex">
                 <ul class="menu menu-horizontal px-1 text-black lg:text-white">
@@ -74,12 +76,74 @@
             <div class="navbar-end">
                 <div class="hidden lg:block">
                 <input type="text" placeholder="Search here" class="input rounded-full  border-transparent input-info w-[400px] max-w-xs s relative" />
-                <i class="fa-solid fa-magnifying-glass absolute top-20 right-6" style="color: #121212;"></i>
+                <i class="fa-solid fa-magnifying-glass absolute top-20 right-36" style="color: #121212;"></i>
             
             </div>
           </div>
         </div>
        </nav>
+
+       <!--Banner section-->
+
+       <div class="carousel w-full relative">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img class="" src="./images/banner1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+
+          <div class="absolute text-white text-center top-20 left-72">
+            <h1 class="text-7xl font-bold">Exotic tastes at your <br> doorstep</h1>
+            <p class="text-lg font-medium py-6">We supply highly quality organic products</p>
+            <button class="btn bg-[#F85559] border-transparent rounded-lg text-white py-5 px-7 h-16 text-lg font-bold">Shop Now</button>
+          </div>
+        </div> 
+
+        <!--2nd Carousel-->
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="./images/banner2.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+
+          <div class="absolute text-white text-center top-20 left-72">
+            <h1 class="text-7xl font-bold">Exotic tastes at your <br> doorstep</h1>
+            <p class="text-lg font-medium py-6">We supply highly quality organic products</p>
+            <button class="btn bg-[#F85559] border-transparent rounded-lg text-white py-5 px-7 h-16 text-lg font-bold">Shop Now</button>
+          </div>
+        </div> 
+
+        <!--3rd carousel-->
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="./images/banner3.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+          <div class="absolute text-white text-center top-20 left-72">
+            <h1 class="text-7xl font-bold">Exotic tastes at your <br> doorstep</h1>
+            <p class="text-lg font-medium py-6">We supply highly quality organic products</p>
+            <button class="btn bg-[#F85559] border-transparent rounded-lg text-white py-5 px-7 h-16 text-lg font-bold">Shop Now</button>
+          </div>
+        </div>
+        
+        <!--4th carousel-->
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="./images/banner4.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+
+          <div class="absolute text-white text-center top-20 left-72">
+            <h1 class="text-7xl font-bold">Exotic tastes at your <br> doorstep</h1>
+            <p class="text-lg font-medium py-6">We supply highly quality organic products</p>
+            <button class="btn bg-[#F85559] border-transparent rounded-lg text-white py-5 px-7 h-16 text-lg font-bold">Shop Now</button>
+          </div>
+        </div>
+      </div>
     </header>
 
     
