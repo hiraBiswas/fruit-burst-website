@@ -52,13 +52,13 @@
   </style>
   </head>
 
-  <body class="font-lato h-auto mx-5 w-full  lg:mx-auto">
+  <body class="font-lato h-auto mx-auto  lg:mx-auto">
 
-    <header class="container mx-auto  lg:h-[800px] lg:max-w-7xl ">
+    <header class="container max-w-xl mx-16 md:max-w-full md:mx-auto lg:h-[800px] lg:max-w-7xl ">
       <!--navbar section for the website-->
       <nav class="container w-full lg:max-w-7xl mx-auto lg:h-32 sticky">
-        <div class="navbar bg-white lg:bg-red-400 rounded-full my-12 ">
-          <div class="navbar-start hidden lg:flex">
+        <div class="navbar bg-white md:bg-red-400 lg:bg-red-400 rounded-full my-12 ">
+          <div class="navbar-start hidden md:hidden  lg:flex">
             <ul class="menu menu-horizontal px-1 text-black lg:text-white">
               <li><a href>Home</a></li>
               <li><a href>About Us</a></li>
@@ -69,15 +69,15 @@
           </div>
           <div class="navbar-center">
 
-            <div class="flex">
+            <div class="flex md:pl-10  ">
               <img src="./images/logo.png" alt>
               <a
-                class="btn btn-ghost normal-case text-black lg:text-white text-4xl font-bold">Fruit
+                class="btn btn-ghost normal-case text-black md:text-3xl flex justify-end  lg:text-white text-4xl font-bold">Fruit
                 Burst</a>
             </div>
             <div class="flex justify-end ">
               <div class="dropdown">
-                <label tabindex="0" class="btn btn-ghost   lg:hidden">
+                <label tabindex="0" class="btn btn-ghost md:pl-96   lg:hidden">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 relative"
                     fill="none" viewBox="0 0 24 24" stroke="black"><path
                       stroke-linecap="none" stroke-linejoin="round"
@@ -96,9 +96,9 @@
           </div>
 
           <div class="navbar-end">
-            <div class="hidden lg:block ">
+            <div class="hidden md:hidden lg:block ">
               <input type="text" placeholder="Search here"
-                class="input rounded-full  border-transparent input-info w-[400px] max-w-xs s relative" />
+                class="input rounded-full  border-transparent input-info  lg:w-[400px] max-w-xs s relative" />
               <i class="fa-solid fa-magnifying-glass absolute top-8 right-10"
                 style="color: #121212;"></i>
 
@@ -110,9 +110,9 @@
       <!--Banner section-->
 
       <div
-        class="container w-full h-52 lg:relative z-10  lg:h-auto max-w-7xl mx-auto carousel">
+        class="container w-full h-52 md:h-auto lg:relative z-10  lg:h-auto max-w-7xl mx-auto carousel">
         <div id="slide1" class="carousel-item relative w-full ">
-          <img class src="./images/banner1.png" class="w-full " />
+          <img src="./images/banner1.png" class="w-full " />
           <div
             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide4"
@@ -122,10 +122,10 @@
           </div>
 
           <div
-            class=" flex flex-col justify-center items-center pl-5 absolute text-white text-center px-auto top-4 left-12 lg:top-20 lg:left-72">
-            <h1 class="text-2xl font-bold lg:text-7xl">Exotic tastes at your <br>
+            class="flex flex-col justify-center items-center pl-5 absolute text-white text-center px-auto top-4 left-12 md:top-20 md:left-30  right-20 lg:top-20 lg:-left-5">
+            <h1 class="text-2xl font-bold md:text-4xl lg:text-7xl">Exotic tastes at your <br>
               doorstep</h1>
-            <p class="text-base font-base py-3  lg:text-lg lg:font-normal lg:py-6">We
+            <p class="text-base font-base py-1  lg:text-lg lg:font-normal lg:py-6">We
               supply high quality fruits</p>
             <button
               class="btn bg-[#F85559] border-transparent rounded-lg text-white h-8 py-2 px-4 lg:py-5 lg:px-7 lg:h-16 text-lg font-bold">Shop
@@ -145,11 +145,11 @@
           </div>
 
           <div
-            class="absolute text-white text-center top-4 left-12 lg:top-20 lg:left-72">
-            <h1 class="text-2xl font-bold  lg:text-7xl lg:font-bold">Exotic
+            class="absolute text-white text-center top-4 left-12 md:top-20 md:left-30  right-20 lg:top-20 lg:left-50">
+            <h1 class="text-2xl font-bold md:text-4xl  lg:text-7xl lg:font-bold">Exotic
               tastes at your <br> doorstep</h1>
-            <p class="text-base font-normal lg:text-lg lg:font-medium lg:py-6">We
-              supply highly quality organic products</p>
+            <p class="text-base font-normal py-1 md:py-2 lg:text-lg lg:font-medium lg:py-6">We
+              supply high quality fruits</p>
             <button
               class="btn bg-[#F85559] border-transparent rounded-lg text-white h-8 py-2 px-4 lg:py-5 lg:px-7 lg:h-16 text-lg font-bold">Shop
               Now</button>
@@ -167,10 +167,10 @@
               class="btn btn-circle border-none bg-black text-white">❯</a>
           </div>
           <div
-            class="absolute text-white text-center top-4 left-12 lg:top-20 lg:left-72">
-            <h1 class="text-2xl font-bold lg:text-7xl lg:font-bold">Exotic
+            class="absolute text-white text-center top-4 left-12 md:top-20 md:left-30  right-20 lg:top-20 lg:left-50">
+            <h1 class="text-2xl font-bold md:text-4xl lg:text-7xl lg:font-bold">Exotic
               tastes at your <br> doorstep</h1>
-            <p class="text-lg font-medium py-6">We supply highly quality organic
+            <p class="text-base font-base py-1 md:py-2  lg:text-lg lg:font-normal lg:py-6">We supply highly quality organic
               products</p>
             <button
               class="btn bg-[#F85559] border-transparent rounded-lg text-white h-8 py-2 px-4 lg:py-5 lg:px-7 lg:h-16 text-lg font-bold">Shop
@@ -187,9 +187,9 @@
             <a href="#slide1" class="btn btn-circle">❯</a>
           </div>
 
-          <div class="absolute text-white text-center top-20 left-72">
-            <h1 class="text-7xl font-bold">Exotic tastes at your <br> doorstep</h1>
-            <p class="text-lg font-medium py-6">We supply highly quality organic
+          <div class="absolute text-white text-center top-4 left-12 md:top-20 md:-left-30  right-20 lg:top-20 lg:left-50">
+            <h1 class="text-2xl font-bold md:text-4xl lg:text-7xl lg:font-bold">Exotic tastes at your <br> doorstep</h1>
+            <p class="text-base font-base py-1 md:py-2  lg:text-lg lg:font-normal lg:py-6">We supply highly quality organic
               products</p>
             <button
               class="btn bg-[#F85559] border-transparent rounded-lg text-white py-5 px-7 h-16 text-lg font-bold">Shop
@@ -229,13 +229,13 @@
 
     <!--main section-->
 
-    <main class=" container max-w-7xl mx-auto ">
+    <main class=" container max-w-xl mx-16 md:max-w-full md:mx-auto lg:max-w-7xl lg:mx-auto">
 
       <!--deal of the day section-->
       <div
         class=" container flex flex-col mt-4 lg:max-w-7xl mx-auto lg:mt-32  lg:flex-row justify-between items-center ">
         <div class="w-full text-center lg:w-1/2 lg:text-left">
-          <h1 class="text-xl lg:text-5xl font-extrabold">Deal of the day</h1>
+          <h1 class="text-3xl lg:text-5xl font-extrabold">Deal of the day</h1>
           <p class="text-base font-normal text-gray-500 pt-6">Today you are getting most qualityful fruit at cheaper rate.We also have free delivery option.Don't miss it! </p>
         </div>
         <div class="pt-5">
@@ -275,7 +275,7 @@
       <!--card section of deal of the day -->
 
       <div
-        class="container mt-12 grid gap-4 grid-cols-1 lg:max-w-7xl lg:grid-cols-4  ">
+        class="container mt-12 grid gap-6 grid-cols-1 md:grid-cols-2 lg:max-w-7xl lg:grid-cols-4  ">
         <div class="card bg-base-100 shadow-lg">
           <figure class="px-10 pt-10">
             <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
@@ -302,9 +302,9 @@
                 onclick="my_modal_1.showModal()">Details</button>
               <dialog id="my_modal_1" class="modal">
                 <form method="dialog"
-                  class="modal-box container max-w-sm py-10 lg:max-w-md lg:py-16 px-auto">
-                  <img src="./images/fruit6.png" class="w-[180px] mx-auto" alt>
-                  <h3 class="font-extrabold text-4xl pt-5">Apples</h3>
+                  class="modal-box  h-auto max-w-sm  px-auto   md:max-w-sm md:py-4 md:h-20 lg:max-w-md lg:py-10">
+                  <img src="./images/fruit6.png" class="mx-auto md:w-28 lg:w-44" alt>
+                  <h3 class="font-extrabold text-3xl  lg:text-4xl pt-5">Apples</h3>
                   <p class="py-4 font-medium">Professional employees are there
                     for you to pick the most amazing and fresh fruits.</p>
                   <div class="modal-action flex justify-center">
@@ -780,12 +780,12 @@
 
 
         <!--parent of 3 column-->
-        <div class="container grid grid-cols-1 lg:grid-cols-3 mt-10 gap-8">
+        <div class="container mx-auto grid grid-cols-1 gap-4 lg:grid-cols-3 mt-10 lg:gap-8">
 
 
           
             <!--content plus icon-->
-            <div class="container order-2 lg:order-1">
+            <div class="container order-2  lg:order-1 ">
               <!--content1-->
               <div class="flex pb-10 flex-col items-center lg:flex-row lg:items-start">
 
@@ -809,7 +809,7 @@
                   <h1 class="text-2xl font-extrabold pb-2 ">Dedicated
                     Team</h1>
                   <hr class="w-28 border-gray-500 border-1 ">
-                  <p class="font-medium pt-2">Professional employees are there
+                  <p class="font-medium pt-2 text-center lg:text-left ">Professional employees are there
                     for you
                     to pick the most amazing and fresh fruits.</p>
                 </div>
@@ -838,7 +838,7 @@
                   <h1 class="text-2xl font-extrabold pb-2">Fresh
                     is Best</h1>
                   <hr class="w-28 border-gray-500 border-1 ">
-                  <p class="font-medium pt-2">Professional employees are there
+                  <p class="font-medium pt-2 text-center lg:text-left">Professional employees are there
                     for you
                     to pick the most amazing and fresh fruits.</p>
 
@@ -905,7 +905,7 @@
                 <div class="flex flex-col items-center lg:items-start">
                   <h1 class="text-2xl font-extrabold  pb-2">Gift Certificates</h1>
                   <hr class="w-28 border-gray-500 border-1 ">
-                  <p class="font-medium pt-2">Professional employees are there for
+                  <p class="font-medium pt-2 text-center lg:text-left">Professional employees are there for
                     you
                     to pick the most amazing and fresh fruits.</p>
 
@@ -915,8 +915,8 @@
             </div>
             <!--image-->
 
-            <div class="order-1 lg:order-2">
-              <img src="./images/whychoose1.png" alt>
+            <div class="order-1 flex justify-center lg:order-2 ">
+              <img src="./images/whychoose1.png"  class="rounded-lg">
             </div>
 
             <!--3rd column-->
@@ -971,7 +971,7 @@
                 <div class="flex flex-col items-center lg:items-end">
                   <h1 class="text-2xl font-extrabold pb-2">Integrated Supplier</h1>
                   <hr class="w-28 border-gray-500 border-1 lg:ml-auto ">
-                  <p class="font-medium pt-2">Professional employees are there
+                  <p class="font-medium pt-2 text-center lg:text-right">Professional employees are there
                     for you
                     to pick the most amazing and fresh fruits.</p>
                 </div>
@@ -1044,7 +1044,7 @@
 
                 </div>
 
-                <div class="flex flex-col items-center lg:items-end">
+                <div class="flex flex-col items-center  lg:items-end ">
                   <h1 class="text-2xl font-extrabold  pb-2 ">The Benefits Only</h1>
                   <hr class="w-28 border-gray-500 border-1 lg:ml-auto ">
                   <p class="font-medium pt-2">Professional employees are there
@@ -1062,7 +1062,7 @@
 
         <!--Footer Section-->
 
-        <footer class="footer footer-center p-10 bg-black  text-primary-content w-full lg:py-32 lg:mt-32 ">
+        <footer class="footer footer-center p-10 bg-black w-[500px] text-primary-content md:w-full lg:w-full lg:py-32 lg:mt-32 ">
          <div class="flex">
           <img src="./images/logo.png" alt="">
           <h1 class="text-4xl font-bold">Fruit Burst</h1>
